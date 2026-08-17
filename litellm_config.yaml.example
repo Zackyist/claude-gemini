@@ -1,0 +1,62 @@
+model_list:
+  # Works, 20 RDP
+  - model_name: gemini-2.5-flash
+    litellm_params:
+      model: gemini/gemini-2.5-flash     
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works, 20 RDP
+  - model_name: gemini-2.5-flash-lite
+    litellm_params:
+      model: gemini/gemini-2.5-flash-lite
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Should be 20 RDP but says Deployment not available for some reason
+  #- model_name: gemini-3-flash
+  #  litellm_params:
+  #    model: gemini/gemini-3-flash
+  #    api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+  #    drop_params: true
+  # Works, 500 RDP
+  - model_name: gemini-3.1-flash-lite
+    litellm_params:
+      model: gemini/gemini-3.1-flash-lite
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works, 20 RDP
+  - model_name: gemini-3.5-flash
+    litellm_params:
+      model: gemini/gemini-3.5-flash
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works, 500 RDP
+  - model_name: gemini-3.5-flash-lite
+    litellm_params:
+      model: gemini/gemini-3.5-flash-lite
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works, 20 RDP
+  - model_name: gemini-3.6-flash
+    litellm_params:
+      model: gemini/gemini-3.6-flash
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works, 20 RDP
+  - model_name: gemini-3.7-flash
+    litellm_params:
+      model: gemini/gemini-3.7-flash
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works but in high demand and now capped with a bad TPM of 16K after July 2026 and practically unusable
+  - model_name: gemma-4-26b-a4b-it
+    litellm_params:
+      model: gemini/gemma-4-26b-a4b-it
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+  # Works but in high demand and now capped with a bad TPM of 16K after July 2026 and practically unusable
+  - model_name: gemma-4-31b-it   
+    litellm_params:
+      model: gemini/gemma-4-31b-it    
+      api_key: REPLACE-WITH-YOUR-AI-STUDIO-API-KEY
+      drop_params: true
+
