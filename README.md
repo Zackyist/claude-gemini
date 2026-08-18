@@ -19,3 +19,4 @@ A way to use *Google AI Studio's* Free Tier and its *Gemini* models in *Claude C
   ```
 9. Run the proxy with `liteproxy`
 10. In another terminal run *Claude Code* with `claude`
+11. Choose **Yes** when asked if you want to use the defined API key.
